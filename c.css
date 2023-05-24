@@ -1,0 +1,328 @@
+.projects1 {
+    margin: 0;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lorem-ipsum-dolor1,
+  .mealtime-gamification3 {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+  }
+  
+  .lorem-ipsum-dolor1 {
+    margin: 0;
+    width: 100%;
+    top: 28.09%;
+  }
+  
+  .mealtime-gamification3 {
+    width: 64.88%;
+    top: 0;
+    font-size: 1.88rem;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+  }
+  
+  .lorem-ipsum-dolor-sit-amet-co-group {
+    position: absolute;
+    height: 76.72%;
+    width: 46.58%;
+    top: 0;
+    right: 0;
+    bottom: 23.28%;
+    left: 53.42%;
+  }
+  
+  .group-child4,
+  .group-parent7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .group-child4 {
+    height: 100%;
+    width: 46.66%;
+    top: 0;
+    right: 53.34%;
+    border-radius: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .group-parent7 {
+    height: 79.45%;
+    width: 100%;
+    top: 20.55%;
+    right: 0;
+  }
+  
+  .mealtime-gamification4 {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #707070;
+    text-align: center;
+  }
+  
+  .frame-item {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #00887b;
+    position: relative;
+    width: 14.63rem;
+    height: 0.19rem;
+  }
+  
+  .mealtime-gamification-group {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 22.45%;
+    top: 0;
+    right: 77.55%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.44rem;
+  }
+  
+  .project-name-21 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  
+  .project-name-2-container {
+    position: absolute;
+    height: 75%;
+    width: 12.76%;
+    top: 0;
+    right: 59%;
+    bottom: 25%;
+    left: 28.24%;
+  }
+  
+  .project-name-31 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #707070;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .project-name-3-container {
+    position: absolute;
+    height: 75%;
+    width: 12.76%;
+    top: 0;
+    right: 39.42%;
+    bottom: 25%;
+    left: 47.82%;
+  }
+  
+  .frame-parent2,
+  .project-name-4-container,
+  .project-name-5-container {
+    position: absolute;
+    height: 75%;
+    width: 12.93%;
+    top: 0;
+    right: 19.68%;
+    bottom: 25%;
+    left: 67.39%;
+  }
+  
+  .frame-parent2,
+  .project-name-5-container {
+    width: 12.84%;
+    right: 0;
+    left: 87.16%;
+  }
+  
+  .frame-parent2 {
+    height: 9.13%;
+    width: 89.8%;
+    right: 4.68%;
+    bottom: 90.87%;
+    left: 5.51%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #707070;
+  }
+  
+  .component-51 {
+    align-self: stretch;
+    position: relative;
+    height: 27.38rem;
+    text-align: left;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .projects-root {
+    /* position: relative;
+    background-color: rgba(63, 0, 111, 0.06);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+    width: 100%; */
+    /* min-height: 20rem; */
+    /* max-height: 39rem;  */
+    /* display: inline-block;
+    flex-direction: column;
+    padding: 3.13rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 3.13rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c53f00;
+    font-family: Poppins;
+    overflow: hidden; */
+    position: relative;
+    background-color: rgba(63, 0, 111, 0.06);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+    width: 100%;
+    min-height: 20rem;
+    max-height: 39rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3.13rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 3.13rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c53f00;
+    font-family: Poppins;
+    overflow: hidden;
+  }
+  
+  .project-name-31.active {
+    /* Styles for the active button */
+    color: green; /* Set text color to green */
+    border-bottom: 2px solid green; /* Add a bottom border to indicate active state */
+  }
+  
+  /* Implement media queries for responsive adjustments */
+  @media (max-width: 768px) {
+    /* .projects-root {
+        padding: 1.5rem;
+      gap: 1.5rem;
+      font-size: 1.25rem;
+    }
+  
+    .component-51 {
+      height: auto;
+    } */
+    .projects-root {
+        padding: 1.5rem;
+        gap: 1.5rem;
+        font-size: 1.25rem;
+      }
+    
+      .component-51 {
+        height: auto;
+      }
+    
+      .group-parent7 {
+        position: static;
+        height: auto;
+        width: auto;
+      }
+    
+      .lorem-ipsum-dolor-sit-amet-co-group {
+        position: static;
+        height: auto;
+        width: auto;
+      }
+    
+      .lorem-ipsum-dolor1 {
+        position: static;
+        top: auto;
+        width: auto;
+        margin: 0;
+      }
+    
+      .mealtime-gamification3 {
+        position: static;
+        top: auto;
+        width: 100%;
+        font-size: 1.5rem;
+      }
+    
+      .group-child4 {
+        position: static;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+      }
+    
+      .frame-parent2 {
+        position: static;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+      }
+      .project-name-3-container {
+        left: 25%; /* Adjust left position for the third container */
+      }
+      
+      .project-name-4-container {
+        left: 50%; /* Adjust left position for the fourth container */
+      }
+      
+      .project-name-5-container {
+        left: 75%; /* Adjust left position for the fifth container */
+      }
+        
+          .project-name-31 {
+            position: static;
+            top: auto;
+            left: auto;
+            width: 100%;
+          }
+        }
+  
+    /* Add additional media queries and style adjustments as needed */
+  }
+  
