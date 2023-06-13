@@ -1,8 +1,6 @@
 .projects1 {
     margin: 0;
-    align-self: stretch;
-    flex: 1;
-    position: relative;
+    align-self: center;
     font-size: inherit;
     font-weight: 600;
     font-family: inherit;
@@ -12,7 +10,8 @@
   .lorem-ipsum-dolor1,
   .mealtime-gamification3 {
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-block;
   }
   
@@ -20,10 +19,11 @@
     margin: 0;
     width: 100%;
     top: 28.09%;
+    text-align: justify;
   }
   
   .mealtime-gamification3 {
-    width: 64.88%;
+    width: 100%;
     top: 0;
     font-size: 1.88rem;
     font-weight: 600;
@@ -34,34 +34,33 @@
   .lorem-ipsum-dolor-sit-amet-co-group {
     position: absolute;
     height: 76.72%;
-    width: 46.58%;
+    width: 100%;
     top: 0;
     right: 0;
     bottom: 23.28%;
-    left: 53.42%;
+    left: 0;
   }
   
   .group-child4,
   .group-parent7 {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .group-child4 {
-    height: 100%;
-    width: 46.66%;
+    height: auto;
+    width: 100%;
     top: 0;
-    right: 53.34%;
     border-radius: 12px;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: cover;
   }
   
   .group-parent7 {
-    height: 79.45%;
+    height: auto;
     width: 100%;
     top: 20.55%;
     right: 0;
@@ -93,9 +92,9 @@
     background-color: transparent;
     position: absolute;
     height: 100%;
-    width: 22.45%;
+    width: 100%;
     top: 0;
-    right: 77.55%;
+    right: 0;
     bottom: 0;
     left: 0;
     display: flex;
@@ -120,9 +119,9 @@
     height: 75%;
     width: 12.76%;
     top: 0;
-    right: 59%;
+    right: 25%;
     bottom: 25%;
-    left: 28.24%;
+    left: 25%;
   }
   
   .project-name-31 {
@@ -146,9 +145,9 @@
     height: 75%;
     width: 12.76%;
     top: 0;
-    right: 39.42%;
+    right: 50%;
     bottom: 25%;
-    left: 47.82%;
+    left: 50%;
   }
   
   .frame-parent2,
@@ -158,9 +157,9 @@
     height: 75%;
     width: 12.93%;
     top: 0;
-    right: 19.68%;
+    right: 75%;
     bottom: 25%;
-    left: 67.39%;
+    left: 75%;
   }
   
   .frame-parent2,
@@ -173,7 +172,7 @@
   .frame-parent2 {
     height: 9.13%;
     width: 89.8%;
-    right: 4.68%;
+    right: 5.51%;
     bottom: 90.87%;
     left: 5.51%;
     text-align: center;
@@ -182,33 +181,15 @@
   }
   
   .component-51 {
-    align-self: stretch;
+    align-self: center;
     position: relative;
-    height: 27.38rem;
+    height: auto;
     text-align: left;
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.6);
   }
   
   .projects-root {
-    /* position: relative;
-    background-color: rgba(63, 0, 111, 0.06);
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-    width: 100%; */
-    /* min-height: 20rem; */
-    /* max-height: 39rem;  */
-    /* display: inline-block;
-    flex-direction: column;
-    padding: 3.13rem;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    gap: 3.13rem;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #c53f00;
-    font-family: Poppins;
-    overflow: hidden; */
     position: relative;
     background-color: rgba(63, 0, 111, 0.06);
     box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
@@ -230,96 +211,128 @@
   }
   
   .project-name-31.active {
-    /* Styles for the active button */
-    color: green; /* Set text color to green */
-    border-bottom: 2px solid green; /* Add a bottom border to indicate active state */
+    color: green;
+    border-bottom: 2px solid green;
   }
   
   /* Implement media queries for responsive adjustments */
   @media (max-width: 768px) {
-    /* .projects-root {
-        padding: 1.5rem;
+    .projects-root {
+      padding: 1.5rem;
       gap: 1.5rem;
       font-size: 1.25rem;
     }
   
     .component-51 {
       height: auto;
-    } */
-    .projects-root {
-        padding: 1.5rem;
-        gap: 1.5rem;
-        font-size: 1.25rem;
-      }
-    
-      .component-51 {
-        height: auto;
-      }
-    
-      .group-parent7 {
-        position: static;
-        height: auto;
-        width: auto;
-      }
-    
-      .lorem-ipsum-dolor-sit-amet-co-group {
-        position: static;
-        height: auto;
-        width: auto;
-      }
-    
-      .lorem-ipsum-dolor1 {
-        position: static;
-        top: auto;
-        width: auto;
-        margin: 0;
-      }
-    
-      .mealtime-gamification3 {
-        position: static;
-        top: auto;
-        width: 100%;
-        font-size: 1.5rem;
-      }
-    
-      .group-child4 {
-        position: static;
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        overflow: hidden;
-        max-height: 100%;
-      }
-    
-      .frame-parent2 {
-        position: static;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        width: 100%;
-      }
-      .project-name-3-container {
-        left: 25%; /* Adjust left position for the third container */
-      }
-      
-      .project-name-4-container {
-        left: 50%; /* Adjust left position for the fourth container */
-      }
-      
-      .project-name-5-container {
-        left: 75%; /* Adjust left position for the fifth container */
-      }
-        
-          .project-name-31 {
-            position: static;
-            top: auto;
-            left: auto;
-            width: 100%;
-          }
-        }
+    }
+  
+    .group-parent7,
+    .lorem-ipsum-dolor-sit-amet-co-group {
+      position: static;
+      height: auto;
+      width: auto;
+    }
+  
+    .lorem-ipsum-dolor1 {
+      position: static;
+      top: auto;
+      width: auto;
+      margin: 0;
+      text-align: justify;
+    }
+  
+    .mealtime-gamification3 {
+      position: static;
+      top: auto;
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .group-child4 {
+      position: static;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+  
+    .frame-parent2 {
+      position: static;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+    }
+  
+    .project-name-3-container {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .project-name-4-container {
+      left: 75%;
+      transform: translateX(-50%);
+    }
+  
+    .project-name-5-container {
+      left: 87.16%;
+      transform: translateX(-50%);
+    }
+  
+    .project-name-31 {
+      position: static;
+      top: auto;
+      left: auto;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  /* Center the project heading */
+  .projects1 {
+    text-align: center;
+  }
+  
+  /* Stack buttons vertically on mobile */
+  .frame-parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Adjust layout for desktop and tablet */
+  @media (min-width: 768px) {
+    /* Position the image on the left */
+    .group-parent7 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+    /* Adjust spacing */
+    .lorem-ipsum-dolor-sit-amet-co-group {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Center the image and adjust layout for mobile */
+  @media (max-width: 767px) {
+    .group-parent7 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Justify the project description */
+  .lorem-ipsum-dolor1 {
+    text-align: justify;
+  }
   
